@@ -1,40 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jolliblee</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+    <link rel="icon" href="/images/jolliblee-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
     <nav>
-        <img src="/images/jolliblee-logo.png" alt="Jollible Logo" height="100px">
-        <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-        <button>START ORDER</button>
+      <img src="/images/jolliblee-logo.png" alt="Jollible Logo" height="70px" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button>START ORDER</button>
     </nav>
 
     <div class="header">
-        <div class="header--left">
-            <h2>NEW AND IMPROVED</h2>
-            <h1>FRIED CHICKEN</h1>
-            <p class="" style="text-align: justify; text-justify: inter-word;">
-              Crispier, juicier, and even more delicious! <br />Crafted from 100% all white-meat chicken tenderloin,
-              <br> they come paired with our signature  Classic Tender Dip  <br />for an irresistible experience!
-            </p>
-            <button class="header--button">START ORDER</button>
-        </div>
-        <div class="header--right">
-            <img src="images/chicken-bucket.png" alt="Logo">
-            
-             </div>
-        </div>
+      <div class="header--left">
+        <h2>NEW AND IMPROVED</h2>
+        <h1>FRIED CHICKEN</h1>
+        <p class="" style="text-align: justify; text-justify: inter-word">
+          Crispier, juicier, and even more delicious! <br />Crafted from 100%
+          all white-meat chicken tenderloin, <br />
+          they come paired with our signature Classic Tender Dip <br />for an
+          irresistible experience!
+        </p>
+        <button class="header--button">START ORDER</button>
+      </div>
+      <div class="header--right">
+        <img src="images/chicken-bucket.png" alt="Logo" />
+      </div>
     </div>
 
+    <div id="menu">
+      <h1>THE MENU</h1>
+      <ul>
+        <li>
+          <a href="#solo"><div>Solo</div></a>
+        </li>
+        <li>
+          <a href="#family"><div>Family</div></a>
+        </li>
+        <li>
+          <a href="#budget"><div>Budget</div></a>
+        </li>
+      </ul>
 
-</body>
+      <div id="solo">
+        <h1 class="solo-title">SOLO</h1>
+        <h1>
+          <b>Chickenjoy</b>
+          <span>₱85.00</span>
+        </h1>
+        <p>Crispylicious, juicylicious chickenjoy</p>
+        <hr />
+
+        <h1>
+          <b>Jolly Spaghetti</b>
+          <span>₱50.00</span>
+        </h1>
+        <p>
+          Spaghetti in a sweet style sauce topped with ground beef and hotdog
+          slices
+        </p>
+        <hr />
+
+        <h1>
+          <div><b>Yumburger</b> <span>Classic!</span></div>
+          <span>₱35.00</span>
+        </h1>
+        <p>Langhap-sarap beefy goodness</p>
+      </div>
+
+      <div id="family">
+        <h1 class="family-title">FAMILY</h1>
+        <h1>
+          <div><b>Chickenjoy Bucket</b> <span>Popular</span></div>
+          <span>₱370.00</span>
+        </h1>
+        <p>6 pcs. of crispylicious, juicylicious chickenjoy</p>
+        <hr />
+
+        <h1>
+          <b>Jolly Spaghetti Family Pan</b>
+          <span>₱200.00</span>
+        </h1>
+        <p>Good for 3-4 persons</p>
+        <hr />
+
+        <h1>
+          <b>Yumburger Family Pack</b>
+          <span>₱130.00</span>
+        </h1>
+        <p>4 pcs. of langhap-sarap yumburger</p>
+      </div>
+
+      <div id="budget">
+        <h1 class="budget-title">BUDGET</h1>
+        <h1>
+          <div>
+            <b>Jolly Hotdog</b>
+            <span>Classic</span>
+          </div>
+          <span>₱50.00</span>
+        </h1>
+        <p>Extra cheesy, extra delicious hotdog</p>
+        <hr />
+
+        <h1>
+          <b>Burger Steak</b>
+          <span>₱50.00</span>
+        </h1>
+        <p>100% pure beef patty with mushroom gravy</p>
+        <hr />
+
+        <h1>
+          <b>1 pc. Chickenjoy with Rice</b>
+          <span>₱75.00</span>
+        </h1>
+        <p>Crispylicious, juicylicious chickenjoy with rice</p>
+      </div>
+    </div>
+
+    <div id="about">
+      <h1 class="about-title">About Us</h1>
+
+      <p>
+        At Jolliblee, we're more than just a fast-food restaurant; we're a
+        culinary celebration that brings families and friends together. Our
+        signature dish, the "Chicken Joy," is a testament to our commitment to
+        quality, taste, and happiness. Join us at Jolliblee, where every visit
+        is a celebration of great food and great times. It's not just about
+        eating; it's about enjoying life's joyful moments, one delicious bite at
+        a time.
+      </p>
+      <h1><b>Delivery Hours</b></h1>
+
+      <div>
+        <div>
+          <p>Mon &amp; Tue CLOSED</p>
+          <p>Wednesday 10.00 - 21.00</p>
+          <p>Thursday 10:00 - 21:00</p>
+        </div>
+        <div>
+          <p>Friday 10:00 - 12:00</p>
+          <p>Saturday 10:00 - 22:00</p>
+          <p>Sunday Closed</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h1 class="contact-title">Contact</h1>
+
+      <p>Find us at J-Rosales Ave, Butuan City or call us at 05050515-122330</p>
+      <p>
+        We offer full-service catering for any event, large or small. We
+        understand your needs and we will cater the food to satisfy the biggerst
+        criteria of them all, both look and taste.
+      </p>
+
+      <p class="book">
+        <b>Reserve</b> a table, ask for today's special or just send us a
+        message:
+      </p>
+
+      <form>
+        <p>
+          <input
+            class="w3-input w3-padding-16 w3-border"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name" />
+        </p>
+
+        <p>
+          <input
+            class="w3-input w3-padding-16 w3-border"
+            type="number"
+            placeholder="How many orders"
+            required
+            name="Orders" />
+        </p>
+
+        <p>
+          <input
+            class="w3-input w3-padding-16 w3-border"
+            type="datetime-local"
+            placeholder="Date and time"
+            required
+            name="date"
+            value="2020-11-16T20:00" />
+        </p>
+
+        <p>
+          <input
+            class="w3-input w3-padding-16 w3-border"
+            type="text"
+            placeholder="Message \ Special requirements"
+            required
+            name="Message" />
+        </p>
+
+        <p>
+          <button class="w3-button w3-light-grey w3-block" type="submit">
+            SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+
+    <footer>All Rights Reserved</footer>
+  </body>
 </html>
